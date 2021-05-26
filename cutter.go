@@ -130,7 +130,7 @@ func listDirectoryRecursive(src string) (l_images *list.List) {
 }
 //Antes de hecharlo andar hay que crear dos carpetas conCasco y sin_conCasco
 func main(){
-	l := listDirectoryRecursive("dataJoin")
+	l := listDirectoryRecursive("dataset")
 	largoLista:= l.Len()
 	cnt_fotos:=1
 	for e := l.Front(); e != nil; e = e.Next(){
